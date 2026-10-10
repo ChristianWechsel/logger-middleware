@@ -1,6 +1,6 @@
 {
   "name": "@christian-wechsel/logger-middleware",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Express 5 middleware for request logging with @christian-wechsel/logger.",
   "main": "dist/index.js",
   "scripts": {
@@ -48,7 +48,7 @@
     "typescript": "^7.0.2"
   },
   "peerDependencies": {
-    "@christian-wechsel/logger": "^0.2.0",
+    "@christian-wechsel/logger": "0.x.x",
     "@types/express": "^5.0.6",
     "express": "^5.2.1"
   }
